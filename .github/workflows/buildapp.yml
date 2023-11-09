@@ -2,10 +2,8 @@ name: Development pipeline
 
 on:
   pull_request:
-    types:
-      - opened
     branches:
-      - develop
+      - Developer
 
 
 jobs:
